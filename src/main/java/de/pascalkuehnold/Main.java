@@ -1,23 +1,24 @@
 package de.pascalkuehnold;
 
-import de.pascalkuehnold.util.InputReader;
-import de.pascalkuehnold.util.SafetyCalculator;
+import de.pascalkuehnold.day2.Day2Starter;
+import de.pascalkuehnold.day3.Day3Starter;
 
 public class Main {
-    public static String inputFilePath = "src/main/resources/input.txt";
 
     public static void main(String[] args) {
-        InputReader inputReader = new InputReader(inputFilePath);
+        // StartAdventOfCodeDay2();
 
-        SafetyCalculator safetyCalculator = new SafetyCalculator(inputReader.getReportsMap());
+        StartAdventOfCodeDay3();
+    }
 
-        safetyCalculator.calculateSafetyDamped();
+    private static void StartAdventOfCodeDay2() {
+        Day2Starter day2Starter = new Day2Starter();
+        day2Starter.start();
+    }
 
-        int safeReports = safetyCalculator.getSafeReports(false);
-        int dampenedReports = safetyCalculator.getSafeReports(true);
-        System.out.println("Safe reports: " + safeReports);
-        System.out.println("Dampened reports: " + dampenedReports);
-
-        safetyCalculator.printSafeReports();
+    private static void StartAdventOfCodeDay3() {
+        Day3Starter day3Starter = new Day3Starter();
+        day3Starter.start();
+        day3Starter.getResult();
     }
 }
