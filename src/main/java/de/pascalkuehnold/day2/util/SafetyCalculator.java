@@ -1,4 +1,4 @@
-package de.pascalkuehnold.util;
+package de.pascalkuehnold.day2.util;
 
 import java.util.HashMap;
 import java.util.Map;
