@@ -15,7 +15,6 @@ public class Day3Starter implements IAdventOfCodeDay {
 
     private int result = 0;
     private int counter = 0;
-    private boolean mulInstructionEnabled = true;
 
     public void start() {
         try {

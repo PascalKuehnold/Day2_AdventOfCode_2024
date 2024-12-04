@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         // StartAdventOfCodeDay2();
 
-        StartAdventOfCodeDay3();
+        // StartAdventOfCodeDay3();
     }
 
     private static void StartAdventOfCodeDay2() {

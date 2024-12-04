@@ -31,7 +31,7 @@ public class InputReader {
             }
             System.out.println("InputReader --> Reports: " + reports);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println("Error reading the file: " + e.getMessage());
         }
     }
 
